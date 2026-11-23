@@ -37,7 +37,7 @@
       flex-direction: column;
       align-items: center;
       gap: 14px;
-      width: 260px;
+      width: 195px;
       padding: 28px 16px 22px;
       background: #ffffff;
       border: 1px solid #e5e7eb;
@@ -52,14 +52,14 @@
       outline: none;
     }
     .tool svg { width: 64px; height: 64px; color: #4b5563; }
-    /* Same as the tool titles beside the logo in Sweeps and Inventory (Tailwind text-xl font-bold tracking-tight) */
-    .tool span { font-size: 20px; line-height: 28px; font-weight: 700; letter-spacing: -0.025em; text-align: center; }
+    /* Same as the Inventory tool's column headers (Tailwind text-[11px] font-semibold text-gray-500 uppercase tracking-wide) */
+    .tool span { font-size: 11px; line-height: 16px; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: 0.025em; text-align: center; }
 
     /* Phones: stack the tools vertically */
     @media (max-width: 480px) {
       .logo { margin-bottom: 36px; }
       .tools { flex-direction: column; align-items: center; gap: 16px; }
-      .tool { width: 270px; }
+      .tool { width: 203px; }
     }
   </style>
 </head>
